@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@100;200;300;400;500;600;700&family=Whisper&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.40),rgba(0,0,0,0.40));
+    background-position: center;
+    background-size: center;
+}
+
+.navbar{
+    width: 100px;
+    padding-top: 2px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar img{
+    width: 100px;
+    padding-top: 55px;
+    margin: -37px;
+    margin-top: 5%;
+}
+
+li a:hover{ 
+    transition: 0.5s;
+}
+
+.navbar a:hover{
+    color: black;
+}
+
+.content{
+    width: 100%;
+    position: absolute;
+    color: rgb(234, 221, 221);
+    /* color: black; */
+    top: 45%;
+    transform: translateY(-50%);
+    text-align: center;
+    margin-top: 3%;
+}
+
+.content h1{
+    margin-top: 150px;
+    font-size: 130px;
+    font-weight: 800;
+    font-family: Papua Demo;
+}
+
+.content p{
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: italic;
+    /* color: black; */
+}
+
+.content h6{
+    /* color: black; */
+    font-size: 18px;
+    padding-top: 5px;
+}
+
+/* change img */
+.section_top{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(img/kepulauan\ 1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 20s infinite ease-in-out;
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: url(img/2.jpg);
+    }
+    25%
+    {
+        background-image: url(img/wajah\ 2.jpg);
+    }
+    50%
+    {
+        background-image: url(img/kepulauan\ 5.jpg);
+    }
+    75%
+    {
+        background-image: url(img/tarian\ 1.jpg);
+    }
+    100%
+    {
+        background-image: url(img/2.jpg);
+    }
+}
+/* akhir change img */
+
+@media(min-aspect-ratio: 16/9){
+    .banner video{
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* bagian isi */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.box1{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+
+/* isi box 1 */
+.wrapper-box1{
+    margin: 150px auto;
+    width: 70%;
+}
+
+.text-box1-img1{
+    color: #fff;
+    margin-top: -5%;
+}
+
+.text-box1-img1 h2{
+    font-size: 55px;
+    font-family: Papua Demo;
+    padding-left: 320px;
+}
+
+.text-box1-img1 p{
+    font-size: 20px;
+}
+
+.box1-img2{
+    padding-top: 100px;
+}
+
+.box1-img2 img{
+    max-width: 320px;
+    float: right;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-top: 4%;
+}
+
+.text-box1-img2{
+    color: #fff;
+}
+
+.text-box1-img2 h2{
+    font-size: 50px;
+    font-family: Papua Demo;
+}
+
+.text-box1-img2 p{
+    font-size: 20px;
+}
+
+.box1-img3{
+    padding-top: 100px;
+}
+
+.box1-img3 img{
+    max-width: 320px;
+    float: left;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-top: 3%;
+}
+
+.text-box1-img3{
+    color: #fff;
+}
+
+.text-box1-img3 h2{
+    font-size: 50px;
+    font-family: Papua Demo;
+}
+
+.text-box1-img3 p{
+    font-size: 20px;
+}
+/* akhir isi box 1 */
+
+
+
+.box2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/orang\ 2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+
+/* isi box 2 */
+.wrapper-box2{
+    margin: 150px auto;
+    width: 70%;
+}
+
+.text-box2-img1{
+    color: #fff;
+    margin-top: -5%;
+}
+
+.text-box2-img1 h2{
+    font-size: 60px;
+    font-family: Papua Demo;
+    padding-left: 320px;
+}
+
+.text-box2-img1 p{
+    font-size: 20px;
+}
+
+.box2-img2{
+    padding-top: 100px;
+}
+
+.box2-img2 img{
+    max-width: 320px;
+    float: right;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-top: 3%;
+}
+
+.text-box2-img2{
+    color: #fff;
+}
+
+.text-box2-img2 h2{
+    font-size: 50px;
+    font-family: Papua Demo;
+}
+
+.text-box2-img2 p{
+    font-size: 20px;
+}
+
+.box2-img3{
+    padding-top: 100px;
+}
+
+.box2-img3 img{
+    max-width: 320px;
+    float: left;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-top: 3%;
+}
+
+.text-box2-img3{
+    color: #fff;
+}
+
+.text-box2-img3 h2{
+    font-size: 50px;
+    font-family: Papua Demo;
+}
+
+.text-box2-img3 p{
+    font-size: 20px;
+}
+
+.box2-img4{
+    padding-top: 100px;
+}
+
+.box2-img4 img{
+    max-width: 320px;
+    float: right;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-top: 5%;
+}
+
+.text-box2-img4{
+    color: #fff;
+}
+
+.text-box2-img4 h2{
+    font-size: 50px;
+    font-family: Papua Demo;
+}
+
+.text-box2-img4 p{
+    font-size: 20px;
+}
+/* akhir isi box 2 */
+
+
+.box3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(img/orang\ 7.jpg);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+
+/* isi box 3 */
+.wrapper-box3{
+    margin: 150px auto;
+    width: 70%;
+}
+
+.box3-img1 img{
+    max-width: 500px;
+    float: left;
+    /* border: 3px solid #fff; */
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-left: -10%;
+    margin-top: -10%;
+}
+
+.text-box3-img1{
+    color: #fff;
+    margin-top: 50px;
+}
+
+.text-box3-img1 h2{
+    font-size: 42px;
+    font-family: Papua Demo;
+}
+
+.text-box3-img1 p{
+    font-size: 18px;
+}
+
+.box3-img3{
+    padding-top: 150px;
+}
+
+.box3-img3 img{
+    max-width: 500px;
+    float: right;
+    /* border: 3px solid #fff; */
+    border-radius: 10px;
+    margin-right: -10%;
+    margin-left: 15px;
+    margin-bottom: 8%;
+}
+
+.text-box3-img3{
+    color: #fff;
+    margin-top: 60px;
+}
+
+.text-box3-img3 h2{
+    font-size: 42px;
+    font-family: Papua Demo;
+}
+
+.text-box3-img3 p{
+    font-size: 18px;
+}
+/* akhir isi box 3 */
+
+
+.box4{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.wrapper-box4{
+    margin: 150px auto;
+    width: 70%;
+}
+
+.text-box4{
+    color: #fff;
+    margin-top: -5%;
+}
+
+.text-box4 h2{
+    font-size: 55px;
+    font-family: Papua Demo;
+    padding-left: 320px;
+}
+
+.text-box4 p{
+    font-size: 20px;
+}
+
+.slider{
+    height: 250px;
+    margin: auto;
+    position: relative;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    margin-top: -200px;
+}
+
+.slide-track{
+    display: flex;
+    width: calc(250px * 18);
+    animation: scroll 40s linear infinite;
+}
+
+@keyframes scroll{
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-280px * 9));
+    }
+}
+
+.slide-kuliner{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    perspective: 100px;
+}
+
+img{
+    width: 100%;
+    transition: transform 1s;
+}
+
+img:hover{
+    transform: translateZ(20px);
+}
+
+.slide::before,
+.slide::after{
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 15%;
+    z-index: 2;
+}
+
+.slide::before{
+    left: 0;
+    top: 0;
+}
+
+.slide::after{
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.box5{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+
+.wrapper-box5{
+    margin: 150px auto;
+    width: 70%;
+}
+
+.text-box5{
+    color: #fff;
+    margin-top: -5%;
+}
+
+.text-box5 h2{
+    font-size: 55px;
+    font-family: Papua Demo;
+    padding-left: 320px;
+}
+
+.text-box5 p{
+    font-size: 20px;
+}
+
+/* bagian slide */
+:root{
+    font-size: 16px;
+}
+
+.container-slide{
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+    margin-top: -100px;
+}
+
+.slide{
+    height: 10vh;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    color: #fff;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 0.7s ease-in-out;
+    filter: blur(4px);
+}
+
+.slide h3{
+    position: absolute;
+    font-size: clamp(1rem, 5vw, 5rem);
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+    background-color: #e3fdf5;
+    background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.slide.active{
+    flex: 10;
+    filter: blur(0px);
+}
+
+.slide.active h3{
+    opacity: 1;
+    transition: opacity 0.3s ease-in 0.4s;
+}
+
+.container-slide{
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.slide{
+    width: 90vw;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+/* bagian akhir slide */
+
+.box6{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(45, 45, 45);
+    /* background-image: url(img/kepulauan\ 4.jpg); */
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed;
+}
+
+.wrapper-box6{
+    margin: 150px auto;
+    width: 70%;
+}
+
+.text-box6{
+    color: #fff;
+    margin-top: -5%;
+}
+
+.text-box6 h2{
+    font-size: 55px;
+    font-family: Poppins;
+    padding-left: 250px;
+}
+
+.text-box6 p{
+    font-size: 20px;
+}
+
+.text-box6 img{
+    border: 5px solid #fff;
+    border-radius: 10px;
+}
+/* bagian akhir isi */
+
+h2{
+    font-family: sans-serif;
+    font-size: 48px;
+    color: #fff;
+    margin: 0px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+/* scroll bar */
+::-webkit-scrollbar {
+    width: calc(0.25vw + 1rem);
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(75, 75, 75);
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, rgb(17, 150, 61) 0%, rgb(218, 215, 53) 51%);
+}
+/* akhir scroll bar */
+
+/* footer or WM */
+footer {
+    height: calc(5rem + 5vw);
+    display: flex;
+    align-items: center;
+    font-family: var(--scd-font);
+    padding-left: var(--regular-padding);
+}
+  
+.circle {
+    width: var(--regular-padding);
+    height: var(--regular-padding);
+    border: calc(0.1rem + 0.1vw) solid var(--scd-clr);
+    border-radius: 50%;
+}
+  
+.circle p {
+    font-size: var(--small-size);
+    font-family: var(--scd-font);
+    color: white;
+}
+  
+.name {
+    margin-left: calc(var(--regular-padding) / 3);
+    color: white;
+}
+  
+.name p {
+    font-family: var(--scd-font);
+    font-size: var(--small-size);
+}
+/* akhir footer or WM */
